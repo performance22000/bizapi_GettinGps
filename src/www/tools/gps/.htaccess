@@ -1,0 +1,7 @@
+# Options +FollowSymlinks
+RewriteEngine On
+RewriteBase /tools/gps
+
+# RewriteRule !\.(js|ico|gif|jpg|png|css|html|php|jwg|fda|fdb|fdc|fdd|dxf|pdf|zip)$ index.php
+RewriteRule !\.(js|ico|gif|jpg|png|css|html|php|pdf|zip)? index.php
+
